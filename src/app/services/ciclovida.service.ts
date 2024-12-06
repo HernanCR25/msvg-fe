@@ -3,6 +3,7 @@ import { Observable, throwError } from 'rxjs';
 import { CicloVida } from '../models/CicloVida';
 import { HttpClient } from '@angular/common/http';
 import { catchError } from 'rxjs/operators';
+import { environment } from '../../environments/environment';
 
 @Injectable({
   providedIn: 'root',
